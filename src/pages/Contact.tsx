@@ -42,7 +42,7 @@ export default function Contact() {
                 </div>
                 <div className="text-center">
                   <h4 className="text-gray-400 text-sm font-medium mb-2 uppercase tracking-wider">Email</h4>
-                  <p className="text-white text-xl font-bold mb-1">gentle@madproduction.ai</p>
+                  <p className="text-white text-xl font-bold mb-1">info@madproduction.ai</p>
                   <p className="text-purple-400 text-sm">點擊發送電郵</p>
                 </div>
               </a>
