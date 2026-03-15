@@ -41,7 +41,7 @@ export default function Navbar() {
               <img 
                 src="/logo.png" 
                 alt="MAD PRODUCTION" 
-                className="h-12 w-auto object-contain"
+                className="h-20 w-auto object-contain"
                 onError={() => setImgError(true)}
               />
             ) : (
