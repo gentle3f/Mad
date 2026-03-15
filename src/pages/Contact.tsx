@@ -36,7 +36,7 @@ export default function Contact() {
                 </div>
               </a>
 
-              <a href="mailto:gentle@madproduction.ai" className="flex flex-col items-center gap-4 p-8 rounded-3xl bg-purple-500/5 border border-purple-500/20 hover:bg-purple-500/10 hover:border-purple-500/40 transition-all group">
+              <a href="mailto:info@madproduction.ai" className="flex flex-col items-center gap-4 p-8 rounded-3xl bg-purple-500/5 border border-purple-500/20 hover:bg-purple-500/10 hover:border-purple-500/40 transition-all group">
                 <div className="w-16 h-16 rounded-full bg-purple-500 flex items-center justify-center text-white group-hover:scale-110 transition-transform shadow-[0_0_20px_rgba(168,85,247,0.3)]">
                   <Mail size={32} />
                 </div>
