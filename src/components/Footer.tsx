@@ -15,7 +15,7 @@ export default function Footer() {
                 <img 
                   src="/logo.png" 
                   alt="MAD PRODUCTION" 
-                  className="h-12 w-auto object-contain"
+                  className="h-30 w-auto object-contain"
                   onError={() => setImgError(true)}
                 />
               ) : (
@@ -65,7 +65,7 @@ export default function Footer() {
               </li>
               <li className="flex items-start gap-3 text-gray-400 text-sm">
                 <Mail size={18} className="text-purple-400 shrink-0 mt-0.5" />
-                <span>gentle@madproduction.ai</span>
+                <span>info@madproduction.ai</span>
               </li>
               <li className="flex items-start gap-3 text-gray-400 text-sm">
                 <MapPin size={18} className="text-purple-400 shrink-0 mt-0.5" />
