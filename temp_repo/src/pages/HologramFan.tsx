@@ -2,7 +2,6 @@ import PageHeader from '../components/PageHeader';
 import Section from '../components/Section';
 import PriceCard from '../components/PriceCard';
 import PortfolioGrid from '../components/PortfolioGrid';
-import HologramSimulator from '../components/HologramSimulator';
 import { motion } from 'motion/react';
 
 export default function HologramFan() {
@@ -13,15 +12,6 @@ export default function HologramFan() {
         subtitle="全息投影設備與動畫"
         description="最吸睛的科技展示方案。我們提供 3D Hologram Fan 設備租用及專屬 3D 動畫內容設計，讓您的產品與品牌在空中立體呈現。"
       />
-
-      <Section title="Interactive Simulator" subtitle="Try It Out">
-        <div className="max-w-6xl mx-auto">
-          <p className="text-gray-400 text-center mb-10 max-w-2xl mx-auto">
-            體驗 3D Hologram Fan 的運作原理。點擊電源啟動風扇，當轉速達到一定程度時，利用視覺暫留原理，3D 影像便會浮現在空中。
-          </p>
-          <HologramSimulator />
-        </div>
-      </Section>
 
       <Section darker title="使用場景" subtitle="Applications">
         <div className="grid grid-cols-2 lg:grid-cols-6 gap-4">
