@@ -8,6 +8,7 @@ const navLinks = [
   { name: '平面設計', path: '/graphic-design' },
   { name: '影片製作', path: '/video-production' },
   { name: '3D 全息投影', path: '/hologram-fan' },
+  { name: '網站設計', path: '/web-design' },
   { name: '活動套餐', path: '/packages' },
   { name: '作品展示', path: '/portfolio' },
   { name: '關於我們', path: '/about' },

@@ -10,6 +10,7 @@ import Home from './pages/Home';
 import GraphicDesign from './pages/GraphicDesign';
 import VideoProduction from './pages/VideoProduction';
 import HologramFan from './pages/HologramFan';
+import WebDesign from './pages/WebDesign';
 import Packages from './pages/Packages';
 import Portfolio from './pages/Portfolio';
 import About from './pages/About';
@@ -30,6 +31,7 @@ export default function App() {
             <Route path="/graphic-design" element={<GraphicDesign />} />
             <Route path="/video-production" element={<VideoProduction />} />
             <Route path="/hologram-fan" element={<HologramFan />} />
+            <Route path="/web-design" element={<WebDesign />} />
             <Route path="/packages" element={<Packages />} />
             <Route path="/portfolio" element={<Portfolio />} />
             <Route path="/about" element={<About />} />
