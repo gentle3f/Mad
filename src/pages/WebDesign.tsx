@@ -264,7 +264,39 @@ export default function WebDesign() {
         </div>
       </Section>
 
-      <Section title="額外服務收費及付款方式" subtitle="Add-ons & Payment">
+      <Section title="網域名稱說明" subtitle="Domain Name">
+        <div className="max-w-4xl mx-auto bg-[#0a0a0a] border border-white/10 rounded-3xl p-8">
+          <p className="text-gray-300 mb-6 text-lg leading-relaxed">
+            如客戶需要指定網域名稱，網域費用將按實際註冊情況另計。不同網域尾綴（如 .com、.hk、.com.hk、.ai 等）收費均有所不同。
+          </p>
+          <h4 className="text-lg font-medium text-white mb-4">一般安排如下：</h4>
+          <ul className="space-y-4 mb-8 text-gray-300">
+            <li className="flex items-start gap-3">
+              <Check size={20} className="text-pink-500 shrink-0 mt-0.5" />
+              <span>如網域尚未被註冊，可代為協助購買及設定，費用按實際價格收取</span>
+            </li>
+            <li className="flex items-start gap-3">
+              <Check size={20} className="text-pink-500 shrink-0 mt-0.5" />
+              <span>如客戶指定之網域已被他人註冊，則需另行查詢能否購買或轉讓，價格另議</span>
+            </li>
+            <li className="flex items-start gap-3">
+              <Check size={20} className="text-pink-500 shrink-0 mt-0.5" />
+              <span>網域續費將按註冊商當時實際收費計算</span>
+            </li>
+            <li className="flex items-start gap-3">
+              <Check size={20} className="text-pink-500 shrink-0 mt-0.5" />
+              <span>客戶亦可選擇自行購買網域，我們協助進行網站連接及設定</span>
+            </li>
+          </ul>
+          <div className="bg-purple-900/20 border border-purple-500/20 rounded-xl p-4">
+            <p className="text-sm text-gray-400">
+              <span className="font-bold text-purple-400">備註：</span>網域名稱供應及價格會因註冊商及當時市場情況而有所變動，最終以實際購買價格為準。
+            </p>
+          </div>
+        </div>
+      </Section>
+
+      <Section darker title="額外服務收費及付款方式" subtitle="Add-ons & Payment">
         <div className="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-12">
           <div>
             <h3 className="text-2xl font-bold text-white mb-6 flex items-center gap-3">
